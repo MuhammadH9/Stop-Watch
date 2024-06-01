@@ -1,0 +1,8 @@
+.parent{
+    display:flex;
+    gap: 30px;
+   justify-content: center;
+   background-color: rgb(177, 177, 241);
+   margin: 50px 50px;
+   border-radius: 200%;
+}
