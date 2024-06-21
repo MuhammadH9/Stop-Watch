@@ -39,7 +39,7 @@ function startWatch() {
     alert("Start")
     startBtn.disabled = true        
         pauseBtn.disabled = false        
-        resetddddddddBtn.disabled = false 
+        resetsBtn.disabled = false 
 }
 
 
