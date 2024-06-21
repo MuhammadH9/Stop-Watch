@@ -37,6 +37,9 @@ function start() {
 function startWatch() {
     interval = setInterval(start, 10)
     alert("Start")
+    startBtn.disabled = true        
+        pauseBtn.disabled = false        
+        resetddddddddBtn.disabled = false 
 }
 
 
@@ -51,6 +54,9 @@ function resetWatch() {
     min = 0
     sec = 0
     msec = 0
+    startBtn.disabled = false        
+        pauseBtn.disabled = true           
+        resetBtn.disabled = false
 }
 
 
@@ -59,4 +65,7 @@ function resetWatch() {
 function stopWatch() {
     clearInterval(interval)
         alert("Stop")
+        startBtn.disabled = false        
+        pauseBtn.disabled = true        
+        resetBtn.disabled = false
 }
